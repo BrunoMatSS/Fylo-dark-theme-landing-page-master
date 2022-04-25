@@ -1,0 +1,319 @@
+html {    
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    padding: 60px 80px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 60px;
+}
+
+.menu li {
+    width: 57px;
+}
+
+.menu li a {
+    color: white;
+    transition: 0.3s ease-in-out;
+    font-weight: 400;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+main {
+    background-color: var(--main-color);
+}
+
+.heading {
+    font-family:'Raleway', sans-serif;
+}
+
+.intro {
+    background: url('../images/bg-curvy-desktop.svg') center bottom no-repeat;
+    background-color: var(--intro-color);
+    color: white;
+    padding: 0 80px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 35px; 
+}
+
+.intro p {
+    font-size: 17px;
+}
+
+.intro a {
+    font-weight: 700;
+    color: white;
+    padding: 20px 90px;
+    border-radius: 70px;
+    background: linear-gradient(90deg,
+        rgba(101, 226, 217, 1) 0%,
+        rgba(51, 158, 204, 1) 100%
+    );
+    
+}
+
+.intro a:hover {
+    background: hsl(176, 68%, 64%);
+}
+
+.benefits {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.benefits .heading{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.benefits p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.showcase > div{
+    margin-left: 50px;
+    color: white;
+}
+
+.showcase > div h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.showcase div p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.showcase .stay-productive a{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    color: hsl(176, 68%, 64%);
+    font-size: 15px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid;
+    position: relative;
+}
+
+.showcase .stay-productive a img {
+    padding-left: 8px;
+}
+
+.showcase .stay-productive a:hover {
+    filter: brightness(500%);
+}
+
+.showcase .stay-productive a svg {
+    position: absolute;
+    right: 0;
+    top: 4px;
+}
+.showcase .stay-productive a div {
+    margin-right: 17.5px;
+}
+
+.commendations {
+    background: url('../images/bg-quotes.png') 8% 21% no-repeat;
+    display: flex;
+    padding: 120px 120px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.commendations .board {
+    background-color: var(--testimonials-color);
+    padding: 40px 30px 30px;
+    border-radius: 5px;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+} 
+
+.commendations .profile img{
+    border-radius: 100px;
+    width: 10%;
+    height: 10%;
+}
+
+.commendations .profile {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.commendations .profile div h2 {
+    font-size: 13px;
+}
+
+.commendations .profile div h3 {
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.access {
+    position: relative;
+    color: white;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    
+    background-color: var(--intro-color);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+}
+
+.access h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.access p {
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.access input {
+    border-radius: 100px;
+}
+
+.access .e-mail{
+    padding: 15px 30px;
+    width: 400px;
+}
+
+.access .submit {
+    color: white;
+    font-weight: 700;
+    margin-left: 30px;
+    padding: 15px 40px;
+    background: linear-gradient(90deg,
+    rgba(101, 226, 217, 1) 0%,
+    rgba(51, 158, 204, 1) 100%
+);
+}
+
+.access .submit:hover {
+    background: rgba(101, 226, 217, 1) ;
+}
+
+.footer {
+    background-color: var(--footer-color);
+    padding: 190px 120px 50px;
+    margin-top: -130px;
+
+}
+
+.footer .logo img {
+    width: 150px;
+    margin-bottom: 70px;   
+}
+
+.menu-footer {
+    display: flex;
+    color: white;
+}
+
+.menu-footer .contact {
+    display:flex;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.menu-footer .contact.location {
+    max-width: 350px;
+    margin-right: 40px;
+}
+
+.menu-footer .contact.location img{
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+}
+
+.menu-footer .contact h4 {
+    font-weight: 300;
+}
+
+.menu-footer nav{
+    display: flex;
+    margin: 0 100px 0 120px;
+    gap: 60px;
+}
+
+.menu-footer nav ul li {
+    margin-bottom: 20px;
+    width: 78px;
+}
+
+.menu-footer nav ul li a {
+    color: white;
+}
+
+.menu-footer nav ul li a:hover {
+    font-weight: 700;
+}
+
+.social a {    
+    color: white;
+    margin-right: 30px;
+    padding: 3px 6px;
+    border: 1px solid;
+    border-radius: 100px;
+}
+
+.social .fa-brands.fa-twitter {
+    max-width: 10px;
+}
+
+.social a:hover {
+    color:  rgba(101, 226, 217, 1);
+}
+
+

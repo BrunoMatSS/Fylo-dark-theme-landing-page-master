@@ -1,0 +1,123 @@
+@media (max-width: 375px){
+
+    .header{
+        padding: 20px;
+    }
+
+    .header .logo img {
+        max-width: 90px;
+    }
+
+    .menu {
+        gap: 20px;
+    }
+
+    .menu li {
+        width: 45px;
+    }
+
+    .menu li a {
+        font-size: 12px;
+    }
+
+    .intro {
+        padding: 0 30px 100px;
+        gap: 20px;
+    }
+
+    .intro img{
+        width: 100%;
+    }
+
+    .intro h1 {
+        font-size: 22px; 
+    }
+
+    .intro p {
+        font-size: 14px;
+    }
+
+    .benefits {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .benefits div{
+        padding: 20px;
+    }
+
+
+    .menu-footer {
+        flex-direction: column;
+    }
+
+    .showcase {
+        flex-direction: column;
+        padding: 100px 20px 100px;
+    }
+
+    .showcase img {
+        width: 100%;
+    }
+
+    .showcase > div {
+        margin: 50px 0;
+    }
+
+    .showcase > div h2{
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .showcase > div p{
+
+        font-size: 14px;
+    }
+
+    .commendations {
+        background: url('../images/bg-quotes.png')  no-repeat;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .access {
+        margin: 15px;
+    }
+
+    .access h2 {
+        font-size: 20px;
+    }
+
+    .access .e-mail{
+        max-width: 160px;
+    }
+
+    .access .submit{
+        margin: 20px 0;
+    }
+
+    .footer {
+        padding: 190px 30px 30px
+    }
+
+    .menu-footer nav {
+        flex-direction: column;
+        margin: 80px 0px 80px;
+        gap: 40px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .social a {    
+        margin-right: 0px; 
+    }
+
+    .social .fa-brands.fa-twitter {
+        max-width: 20px;
+    }
+
+
+}
